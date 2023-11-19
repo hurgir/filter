@@ -1,0 +1,152 @@
+![Adblock Plus 2.0]
+! Title: Yek adblock filters
+! Description: yek filters
+! Expires: 4 days (update frequency)
+
+
+! 2022-09-01 https://onual.com
+||powr.io/popup/*$subdocument
+||powr.io/powr.js
+
+! 2022-10-07 https://forum.donanimhaber.com
+forum.donanimhaber.com##.page-between-box
+
+!! @@||amazon.$removeparam=psc
+
+! 2023-04-13 https://tr.indeed.com
+tr.indeed.com###passport-modal-overlay
+
+! 2023-05-02 https://tin.network
+||api.tin.network/banners/tin/*$image
+
+! 2023-05-17 https://www.hepsiburada.com
+hepsiburada.com##.ot-sdk-container
+
+! 2023-07-17 https://forum.donanimhaber.com
+forum.donanimhaber.com##.push-notification
+
+! $removeparam=v,domain=trendyol.com|ciceksepeti.com|pazarama.com|pttavm.com|migros.com.tr|hepsiburada.com|mediamarkt.com.tr|teknosa.com
+
+||amazon.*/b$removeparam=tag
+||amazon.*/s$removeparam=tag
+||amazon.*/events$removeparam=tag
+
+! 2023-08-14 https://www.netinternet.com.tr
+netinternet.com.tr##.align-items-center.d-flex.cookie-card
+! 2023-08-22 https://www.iha.com.tr
+iha.com.tr##.lazy-component.advert-desktop
+! 2023-08-25 https://www.hepsiburada.com
+||bam.nr-data.net^
+! 2023-08-28 https://www.n11.com
+||n11scdn.akamaized.net/custom/athena/*
+||athena-event-provider.n11.com^
+! 2023-08-28 https://www.a101.com.tr
+||personaclick.com^
+! 2023-08-29 https://www.bloomberght.com
+||trendyol.com^$removeparam=adjust_creative
+||trendyol.com^$removeparam=shared
+||trendyol.com^$removeparam=adjust_t
+||trendyol.com^$removeparam=utm_campaign
+! 2023-08-31 https://www.haberturk.com
+#content > section.bg-dark.pt-14.pb-20 > div > div > div.col-md-9.col-lg-7.mb-5 > form > div > div.flex-grow-1.position-relative.auto-search-max-height > div > div.p-2 > a
+etherscan.io##.search-panel-ads
+! 2023-09-02 https://www.coingecko.com
+coingecko.com###sponsored-search-desktop
+! 2023-09-08 https://aktuel-urunler.com
+aktuel-urunler.com##.masthead-duzen
+
+! 2023-09-13 https://anlikfon.com
+anlikfon.com###cm
+! 2023-09-14 https://anlikfon.com
+anlikfon.com###kreosus-iframe
+||kreosus.com^$domain=anlikfon.com
+dexscreener.com##div[class^="custom-"] > a.chakra-link[href^="https://a1.adform.net"]
+! 2023-09-14 https://www.n11.com
+n11.com##efilli-layout-dynamic
+! 2023-09-16 https://www.geckoterminal.com
+||cdn.debugbear.com^$domain=geckoterminal.com
+! 2023-09-16 https://www.coingecko.com
+||zkcdn.net/Advertisers/*
+! https://www.cimri.com/offer/1374662836?platformName=CIMRI_DESKTOP&productId=46696813&pageType=PRODUCT&offerSponsored=false&priceOrder=1&minPrice=299&minPriceMerchant=11512&commentCount=0&photoCount=10&offerCount=4&point=0&offerOrder=2&offerFiltered=false&hasFavorite=false
+
+||cimri.com$removeparam=platformName
+||cimri.com$removeparam=offerSponsored
+||cimri.com$removeparam=commentCount
+||cimri.com$removeparam=photoCount
+||cimri.com$removeparam=offerCount
+||cimri.com$removeparam=offerFiltered
+||cimri.com$removeparam=hasFavorite
+
+! 2023-09-24 https://www.hepsiburada.com
+hepsiburada.com##.hepsiads-SponBrand-root
+
+||getmidas.com$removeparam=af_click_lookback
+||getmidas.com$removeparam=af_adset
+||getmidas.com$removeparam=adset
+||getmidas.com$removeparam=af_xp
+||getmidas.com$removeparam=af_force_deeplink
+
+! 2023-10-12 https://dexscreener.com
+dexscreener.com##div[class^="custom-"] > a.chakra-link[href^="https://docs.dexscreener.com/"]
+
+||anlikfon.com/assets/js/devtools-detector.js
+||hepsiburada.com$removeparam=ftid
+||hepsiburada.com$removeparam=url_src
+||hepsiburada.com$removeparam=wt_ds
+
+||xn--$doc,frame
+
+! 2023-10-23 https://www.sahibinden.com
+www.sahibinden.com##.special-day
+
+spigen.com.tr#@#.fancybox-container
+||hepsiburada.com$removeparam=wt_ds
+
+! 2022-03-09 https://www.hepsiburada.com
+hepsiburada.com##.GoogleAdvertisement.widget.desktop
+! 2023-08-20 https://www.hepsiburada.com
+||hepsiburada01.webtrekk.net^
+||hepsiburada.net/webtrekk/*
+||hstats.hepsiburada.com^
+@@||shipping-sentry.hepsiburada.com
+
+! 2023-10-26 https://web.telegram.org
+web.telegram.org##.open.Message.SponsoredMessage
+
+! 2023-10-31 https://etherscan.io
+||etherscan.io/images/gen/*-Ad-730x90.gif
+etherscan.io##.mt-n2.pt-2.overflow-x-auto.scrollbar-custom
+
+! 2023-11-02 https://web.telegram.org
+web.telegram.org##.avoid-selection.is-group-first.is-group-last.can-have-tail.is-in.must-have-name.bubble
+
+! https://7t4g.adj.st/search?searchTerm=ZYULKER0270504&ftid=x2yx1zi6sn8rf83k&adj_t=y4q2fze_10zuiki3&adj_deep_link=hbapp%3A%2F%2Fsearch%3FsearchTerm%3DZYULKER0270504%26ftid%3Dx2yx1zi6sn8rf83k&adj_fallback=https%3A%2F%2Fhepsiburada.com&adj_redirect=https%3A%2F%2Fwww.hepsiburada.com%2Fara%3Fftid%3Dx2yx1zi6sn8rf83k%26q%3DZYULKER0270504&adj_label=x2yx1zi6sn8rf83k&adj_campaign=affiliate&adj_adgroup=inf-vmyfyojumnni&adj_tracker_limit=250000
+
+$removeparam=adj_campaign
+$removeparam=adj_adgroup
+! $removeparam=adj_t
+! $removeparam=adj_deep_link
+$removeparam=adj_label
+$removeparam=ftid
+$removeparam=adj_tracker_limit
+$removeparam=adj_creative
+
+||powr.io/powr.js?platform=mybb
+
+! 2023-11-08 https://onual.com
+||unpkg.com/tippy.js@5$script,domain=onual.com
+
+||cdn.jsdelivr.net/gh/alpinejs/alpine*$script,domain=onual.com
+
+! ||zxro.com^$redirect=nooptext
+
+! 2023-11-09 https://forum.donanimarsivi.com
+forum.donanimarsivi.com##.focus-ad
+
+||amazon.*$removeparam=tag
+
+! https://www.teknosa.com/apple-watch-series-8-gps-41mm-gece-yarisi-aluminyum-kasa-gece-yarisi-spor-kordon-p-145061656?shopId=teknosa&adp_cid=102849009815a352ebea5e1fdb21ff&adp_oid=5&adj_t=ssr0s2n
+
+||teknosa.com$removeparam=adp_cid
+||teknosa.com$removeparam=adj_t
+||teknosa.com$removeparam=adp_oid
