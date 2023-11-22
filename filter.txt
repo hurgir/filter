@@ -36,11 +36,7 @@ anlikfon.com###kreosus-iframe
 ||kreosus.com^$domain=anlikfon.com
 
 dexscreener.com##div[class^="custom-"] > a.chakra-link[href^="https://a1.adform.net"]
-
-! 2023-09-14 https://www.n11.com
 n11.com##efilli-layout-dynamic
-
-! 2023-09-16 https://www.geckoterminal.com
 ||cdn.debugbear.com^$domain=geckoterminal.com
 
 ||zkcdn.net/Advertisers/*
@@ -60,29 +56,20 @@ dexscreener.com##div[class^="custom-"] > a.chakra-link[href^="https://docs.dexsc
 ||hepsiburada.com$removeparam=wt_ds
 
 ||xn--$doc,frame
-
-! 2023-10-23 https://www.sahibinden.com
 www.sahibinden.com##.special-day
 
 spigen.com.tr#@#.fancybox-container
 ||hepsiburada.com$removeparam=wt_ds
 
-! 2022-03-09 https://www.hepsiburada.com
 hepsiburada.com##.GoogleAdvertisement.widget.desktop
-! 2023-08-20 https://www.hepsiburada.com
 ||hepsiburada01.webtrekk.net^
 ||hepsiburada.net/webtrekk/*
 ||hstats.hepsiburada.com^
 ! @@||shipping-sentry.hepsiburada.com
 
-! 2023-10-26 https://web.telegram.org
 web.telegram.org##.open.Message.SponsoredMessage
-
-! 2023-10-31 https://etherscan.io
 ||etherscan.io/images/gen/*-Ad-730x90.gif
 etherscan.io##.mt-n2.pt-2.overflow-x-auto.scrollbar-custom
-
-! 2023-11-02 https://web.telegram.org
 web.telegram.org##.avoid-selection.is-group-first.is-group-last.can-have-tail.is-in.must-have-name.bubble
 
 $removeparam=adj_t,domain=~adj.st
