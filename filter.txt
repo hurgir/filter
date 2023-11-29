@@ -47,6 +47,9 @@ hepsiburada.com##.hepsiads-SponBrand-root
 ||getmidas.com$removeparam=adset
 ||getmidas.com$removeparam=af_xp
 ||getmidas.com$removeparam=af_force_deeplink
+||getmidas.com$removeparam=pid
+||getmidas.com$removeparam=source_caller
+||getmidas.com$removeparam=c
 
 dexscreener.com##div[class^="custom-"] > a.chakra-link[href^="https://docs.dexscreener.com/"]
 
